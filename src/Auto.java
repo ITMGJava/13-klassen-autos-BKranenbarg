@@ -13,6 +13,7 @@ public class Auto {
 
     void geefGas() {
         System.out.println("De " + merk +" rijdt " + (snelheid+= 20) + "km/u");
+        kilometerstand+=20;
     }
 
     //getter van de private variabele
